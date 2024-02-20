@@ -1,0 +1,39 @@
+.create-task {
+    width: 450px;
+}
+
+.edit-task{
+    width: 100%;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-label {
+    margin: 10px 0px;
+}
+
+.task-content {
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 9px;
+}
+
+.createTask-btn {
+    border: 1px solid #008000;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #008000;
+    border-radius: 9px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.editTask-btn{
+    border: 1px solid #8a2be2;
+    background-color: #8a2be2;
+}
+

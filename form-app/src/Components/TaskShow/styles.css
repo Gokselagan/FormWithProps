@@ -1,0 +1,38 @@
+.task-box{
+    border: 1px solid #008000;
+    border-radius: 27px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+}
+
+
+.btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.task-deleteBtn{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.task-editBtn{
+ cursor: pointer;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #00f;
+    color: #fff;
+    font-weight: 600;
+}

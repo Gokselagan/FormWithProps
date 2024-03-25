@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { TaskCreate } from './Components/TaskCreate';
 import { TaskList } from './Components/TaskList';
-import './App.css';
+
 
 
 export const App = () => {
@@ -43,7 +43,7 @@ export const App = () => {
   }
 
   return (
-    <div className="app">
+    <div className="flex flex-col items-center font-sans">
       <TaskCreate onCreate={createTask} />
       <h1>Duties</h1>
       <TaskList tasks={tasks} onDelete={onDelete} onUpdate={editTask} />
